@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream> // header file
 
-int main()
+int main() // main function
 {
-	std::cout << "You Died!\n";
+	std::cout << "You Died!\n"; // print the message
 
-	system("pause");
+	system("pause"); // pause the system
 }
