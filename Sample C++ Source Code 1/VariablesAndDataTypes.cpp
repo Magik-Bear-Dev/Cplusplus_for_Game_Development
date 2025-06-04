@@ -1,22 +1,22 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // header file
+using namespace std; // namespace
 
-int main()
+int main() // main function
 {
-	char myCharacter;
-	myCharacter = 'y';
+	char myCharacter; // declaration
+	myCharacter = 'y'; // assign a value to myCharacter
 
-	int myInt;
-	myInt = 13;
+	int myInt; // declaration
+	myInt = 13; // assign a value to myInt
 
-	cout << myCharacter << endl;
-	cout << myInt << endl;
+	cout << myCharacter << endl; // print the value of myCharacter
+	cout << myInt << endl; // print the value of myInt
 
-	myCharacter = 'n';
-	myInt = 12;
+	myCharacter = 'n'; // assign a new value to myCharacter
+	myInt = 12; // assign a new value to myInt
 
-	cout << myCharacter << endl;
-	cout << myInt << endl;
+	cout << myCharacter << endl; // print the new value of myCharacter
+	cout << myInt << endl; // print the new value of myInt
 
-	system("pause");
+	system("pause"); // pause the system
 }
